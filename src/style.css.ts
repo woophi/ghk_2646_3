@@ -84,6 +84,16 @@ const btn = style({
   padding: '1rem',
 });
 
+const alert = style({
+  borderRadius: '1rem',
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'space-between',
+  padding: '12px 1rem',
+  backgroundColor: '#FFFDED',
+  margin: '1rem 1rem 0',
+});
+
 export const appSt = {
   bottomBtn,
   container,
@@ -95,4 +105,5 @@ export const appSt = {
   swSlide,
   btn,
   btnContainer,
+  alert,
 };
