@@ -41,7 +41,7 @@ const calculatePayment = (principal: number, interestRate: number, term: number)
 export const App = () => {
   const [loading, setLoading] = useState(false);
   const [selectedYear, setYear] = useState(12);
-  const [thxShow, setThx] = useState(LS.getItem(LSKeys.ShowThx, false));
+  const [thxShow] = useState(LS.getItem(LSKeys.ShowThx, false));
   const [value, setValue] = useState<number | string>(600_000);
 
   const handleInputChange: SliderInputProps['onInputChange'] = (_, { value }) => {
