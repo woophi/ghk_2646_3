@@ -65,8 +65,7 @@ export const App = () => {
       credit_sum: numberValue,
     }).then(() => {
       LS.setItem(LSKeys.ShowThx, true);
-      setThx(true);
-      setLoading(false);
+      window.location.replace('https://alfa.me/Fns0ch');
     });
   }, [selectedYear, numberValue]);
 
